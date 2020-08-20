@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6153227B24EE0CAE00D505DA /* Cafe24Oneprettynight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6153227A24EE0C7600D505DA /* Cafe24Oneprettynight.ttf */; };
+		6153227D24EE160000D505DA /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6153227C24EE159800D505DA /* GmarketSansTTFMedium.ttf */; };
+		6153227F24EE165000D505DA /* Jalnan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6153227E24EE164D00D505DA /* Jalnan.ttf */; };
+		6153228124EE200F00D505DA /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153228024EE200F00D505DA /* CaptureViewController.swift */; };
 		9023ABB724E63D2F009B95C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9023ABB624E63D2F009B95C4 /* AppDelegate.swift */; };
 		9023ABB924E63D2F009B95C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9023ABB824E63D2F009B95C4 /* SceneDelegate.swift */; };
 		9023ABBB24E63D2F009B95C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9023ABBA24E63D2F009B95C4 /* ViewController.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6153227A24EE0C7600D505DA /* Cafe24Oneprettynight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24Oneprettynight.ttf; path = ../../Cafe24Oneprettynight/Cafe24Oneprettynight.ttf; sourceTree = "<group>"; };
+		6153227C24EE159800D505DA /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFMedium.ttf; path = ../../GmarketSansTTF/GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		6153227E24EE164D00D505DA /* Jalnan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Jalnan.ttf; path = ../../Jalnan.ttf; sourceTree = "<group>"; };
+		6153228024EE200F00D505DA /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		9023ABB324E63D2F009B95C4 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9023ABB624E63D2F009B95C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9023ABB824E63D2F009B95C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,11 +71,15 @@
 				9023ABB624E63D2F009B95C4 /* AppDelegate.swift */,
 				9023ABB824E63D2F009B95C4 /* SceneDelegate.swift */,
 				9023ABBA24E63D2F009B95C4 /* ViewController.swift */,
+				6153228024EE200F00D505DA /* CaptureViewController.swift */,
 				9023ABBC24E63D2F009B95C4 /* Main.storyboard */,
 				9023ABCD24E651A5009B95C4 /* memo.xib */,
 				9023ABC224E63D30009B95C4 /* Assets.xcassets */,
 				9023ABC424E63D30009B95C4 /* LaunchScreen.storyboard */,
 				9023ABC724E63D30009B95C4 /* Info.plist */,
+				6153227A24EE0C7600D505DA /* Cafe24Oneprettynight.ttf */,
+				6153227C24EE159800D505DA /* GmarketSansTTFMedium.ttf */,
+				6153227E24EE164D00D505DA /* Jalnan.ttf */,
 				9023ABBF24E63D2F009B95C4 /* memo.xcdatamodeld */,
 			);
 			path = memo;
@@ -133,8 +145,11 @@
 			files = (
 				9023ABC624E63D30009B95C4 /* LaunchScreen.storyboard in Resources */,
 				9023ABC324E63D30009B95C4 /* Assets.xcassets in Resources */,
+				6153227B24EE0CAE00D505DA /* Cafe24Oneprettynight.ttf in Resources */,
 				9023ABBE24E63D2F009B95C4 /* Main.storyboard in Resources */,
 				9023ABCE24E651A5009B95C4 /* memo.xib in Resources */,
+				6153227F24EE165000D505DA /* Jalnan.ttf in Resources */,
+				6153227D24EE160000D505DA /* GmarketSansTTFMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +164,7 @@
 				9023ABB724E63D2F009B95C4 /* AppDelegate.swift in Sources */,
 				9023ABB924E63D2F009B95C4 /* SceneDelegate.swift in Sources */,
 				9023ABC124E63D2F009B95C4 /* memo.xcdatamodeld in Sources */,
+				6153228124EE200F00D505DA /* CaptureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
